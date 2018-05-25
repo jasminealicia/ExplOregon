@@ -1,0 +1,27 @@
+<% include ../partials/header %>
+
+<header class="jumbotron">
+    <h1 class="title">Welcome to ExplOregon!</h1>
+    <p>View the exquisite locations all across the beautiful state of Oregon!</p>
+    <p>
+        <a class="btn btn-success btn-lg" href="/locations/new">Add new site</a>
+    </p>
+</header>
+
+<div class="card-deck row">
+    <% locations.forEach(function(location) { %>
+        <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <img class="card-img-top" src="<%= location.image %>">
+                <div class="card-body">
+                    <h4 class="card-title"><%= location.name %></h4>
+                </div>
+                <p>
+                    <a href="/locations/<%= location._id %>" class="btn btn-info">More Info</a>
+                </p>
+            </div>
+        </div>
+    <% }); %>
+</div>
+
+<% include ../partials/footer %>
