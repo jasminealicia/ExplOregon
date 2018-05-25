@@ -15,7 +15,10 @@ var indexRoutes    = require("./routes/index"),
     locationRoutes = require("./routes/locations"),
     commentRoutes  = require("./routes/comments")
 
-mongoose.connect("mongodb://localhost/exploregon");
+//connecting the database to the developing (C9) environment and deployed (Heroku) environment
+var url = process.env.DATABASE || "mongodb://localhost/exploregon"
+mongoose.connect(url);
+
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public")); //let's us use the stylesheets in the public dir
