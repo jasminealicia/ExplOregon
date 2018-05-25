@@ -1,0 +1,112 @@
+.navbar .navbar-brand {
+    font-family: Pacifico;
+}
+
+/* INDEX PAGE STYLING */
+.jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1468386735537-1488fd34c89b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e73a468ec11df24124ea9048cb9460f5&auto=format&fit=crop&w=1650&q=80);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron .title {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 40px;
+}
+
+.jumbotron p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+}
+
+.jumbotron a {
+    margin: 0 auto;
+}
+
+.card {
+    display: inline-block;
+}
+
+.card a {
+    margin-left: 10px;
+}
+
+/* NEW LOCATION FORM STYLING */
+.new {
+    text-align: center;
+}
+
+.new-form {
+    width: 30%;
+    margin: 30px auto;
+}
+
+/* EDIT LOCATION FORM STYLING */
+.edit {
+    text-align: center;
+}
+
+.edit-form {
+    width: 30%;
+    margin: 30px auto;
+}
+
+/* SHOW PAGE STYLING */
+.card .caption-full {
+    padding: 9px;
+}
+
+.btn-warning {
+    color: white;
+}
+
+.delete-form {
+    display: inline;
+}
+
+#oregon-icon {
+    height: 100px;
+}
+
+/* NEW COMMENT FORM STYLING */
+.new-comment {
+    text-align: center;
+}
+
+.new-comment-form {
+    width: 30%;
+    margin: 30px auto;
+}
+
+/* REGISTER FORM STYLING */
+.signup {
+    text-align: center;
+}
+
+.signup-form {
+    width: 30%;
+    margin: 30px auto;
+}
+
+/* LOGIN FORM STYLING */
+.login {
+    text-align: center;
+}
+
+.login-form {
+    width: 30%;
+    margin: 30px auto;
+}
+
+/*.card-body {
+    border-style: solid;
+    border-width: 0.3px;
+}*/
+
+/*.row .comment-row {
+    /*width: 678px;*/
+
