@@ -14,7 +14,7 @@ MonogDB,
 Passport.js (for authentication),
 Express
 
-This is still a Work In Progress! :) My plans for updating this webiste includes: implementing user profile, Google Map location of site posted,
+This is still a Work In Progress! :) My plans for updating this webiste includes: implementing user profile, Google Map location of site posted, improved user interface,
 and much more!
 
 Check out what it looks like here!: https://agile-cliffs-28269.herokuapp.com/
